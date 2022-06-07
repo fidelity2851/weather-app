@@ -27,7 +27,7 @@
             </p>
           </div>
           <div>
-            <p class="mob_banner_temp_small">
+            <p class="mob_banner_temp_small" :title="weather.current.condition.text" style="width: 150px;">
               {{ weather.current.condition.text }}
             </p>
             <p class="mob_banner_temp">
@@ -38,6 +38,7 @@
       </div>
     </div>
   </div>
+  <!-- Mobile Banner Ends -->
 </template>
 
 <script>
@@ -49,7 +50,6 @@ export default {
     return {
       weather: null,
       apiKey: "bc72e1d7e4dd42e4b15193040222905",
-      country: ['United States', 'United Kingdom', 'Italy', 'Germany', 'France', 'Canada', 'Russia', 'Chain', 'Japan', 'United Arab Emirates'],
 
     };
   },

@@ -11,6 +11,9 @@ body {
     height: 100vh;
     position: relative;
 }
+.weather_cont{
+    padding-bottom: 70px;
+}
 
 .cov_con{
     width: 100%;
@@ -31,9 +34,6 @@ body {
 }
 
 .bot_con{
-    /* position: -webkit-sticky;
-    position: sticky;
-    z-index: 1020; */
     width: 100%;
     height: auto;
     padding: 10px 0px;
@@ -61,7 +61,7 @@ body {
 .mob_header_con{
     width: 100%;
     height: auto;
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 .mob_header{
     color: white;
@@ -124,6 +124,7 @@ body {
 }
 .mob_banner_temp{
     color: white;
+    text-align: right;
     line-height: 36px;
     font-size: 36px;
     font-weight: 600;
@@ -138,6 +139,10 @@ body {
 }
 .mob_banner_temp_small {
     color: white;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
     font-size: 14px;
     font-weight: 200;
     font-family: poppins;
@@ -145,6 +150,8 @@ body {
 }
 .mob_banner_loc{
     color: white;
+    text-align: left;
+    white-space: wrap;
     font-size: 20px;
     font-weight: 600;
     font-family: poppins;
@@ -184,6 +191,7 @@ body {
 }
 .loc_head{
     color: white;
+    text-align: left;
     line-height: 15px;
     font-size: 15px;
     font-weight: 600;
@@ -196,7 +204,7 @@ body {
     font-size: 25px;
     font-weight: 600;
     font-family: poppins;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .loc_temp > small {
     vertical-align: top;
@@ -215,6 +223,111 @@ body {
     font-size: 10px;
     font-weight: 500;
     margin-left: 3px;
+}
+
+
+
+
+.todo_con{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+.todo_header{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: poppins;
+    margin-bottom: 15px;
+}
+.todo_form{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    padding: 7px 7px 7px 10px;
+    background-color: white;
+}
+.todo_form_box{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    font-family: poppins;
+    border: none;
+    background: none;
+    outline: none;
+}
+.todo_form_btn{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: poppins;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 15px;
+    background-color: #19a9d1;
+}
+
+
+.todo_cont_con{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+}
+.todo_tab_con{
+    width: 100%;
+    height: auto;
+}
+a.active > p {
+    font-weight: 600;
+    background-color: #16758f;
+}
+.todo_tab{
+    color: white;
+    text-align: center;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    border-bottom: 1px solid #0d627a;
+    padding: 15px 0px;
+    margin-bottom: 0px;
+}
+.todo_cont{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background-color: #16758f;
+}
+.todo_error{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: poppins;
+}
+.todo_task{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #0d627a;
+    padding: 10px 0px;
+}
+.todo_text{
+    color: white;
+    line-height: 13px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: poppins;
+    margin-bottom: 0px;
+}
+.todo_icon{
+    width: 25px;
+    height: 25px;
+    color: white;
+    line-height: 13px;
+    font-size: 13px;
+    border-radius: 100%;
+    background-color: #0d627a;
 }
 
 
