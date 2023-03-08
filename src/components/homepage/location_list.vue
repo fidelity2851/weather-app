@@ -11,7 +11,7 @@
         <div class="">
           <p class="loc_small">{{ item.location.name }}</p>
           <p class="loc_head" style="width: 100px;">
-            {{ item.location.country }} <img :src="getCountryFlag(item.location.country)" width="20" height="20" />
+            {{ item.location.country }} <img :src="getCountryFlag(item.location.country)" width="20" height="20" crossorigin />
           </p>
         </div>
         <div class="">

@@ -23,6 +23,7 @@
                 :src="getCountryFlag(weather.location.country)"
                 width="25"
                 height="25"
+                crossorigin
               />
             </p>
           </div>
